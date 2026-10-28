@@ -290,3 +290,11 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; }
 }
+
+
+/* React-powered project filters */
+.project-filters { display:flex; flex-wrap:wrap; gap:9px; margin:-18px 0 28px; }
+.filter-button { min-height:38px; padding:8px 15px; border:1px solid var(--line); border-radius:999px; background:var(--panel); color:var(--muted); cursor:pointer; font-size:11px; transition:color .2s ease,border-color .2s ease,background .2s ease; }
+.filter-button:hover,.filter-button.active { border-color:rgba(181,243,106,.5); background:rgba(181,243,106,.09); color:var(--accent); }
+.filter-button:focus-visible { outline:2px solid var(--accent); outline-offset:3px; }
+@media (max-width:520px) { .project-filters { margin-top:-8px; margin-bottom:22px; } .filter-button { min-height:40px; padding-inline:14px; } }
