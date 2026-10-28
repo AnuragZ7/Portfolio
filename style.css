@@ -298,3 +298,12 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 .filter-button:hover,.filter-button.active { border-color:rgba(181,243,106,.5); background:rgba(181,243,106,.09); color:var(--accent); }
 .filter-button:focus-visible { outline:2px solid var(--accent); outline-offset:3px; }
 @media (max-width:520px) { .project-filters { margin-top:-8px; margin-bottom:22px; } .filter-button { min-height:40px; padding-inline:14px; } }
+
+
+/* Personal photo restored to the React hero */
+.portrait-badge { position:absolute; z-index:3; top:2%; left:4%; display:flex; align-items:center; gap:10px; padding:8px 13px 8px 8px; border:1px solid rgba(181,243,106,.3); border-radius:999px; background:rgba(17,21,29,.96); box-shadow:0 14px 38px rgba(0,0,0,.28); transform:rotate(-4deg); }
+.portrait-badge img { display:block; width:46px; height:46px; border-radius:50%; object-fit:cover; object-position:center; border:2px solid var(--accent); }
+.portrait-badge span { color:var(--text); font:500 9px "DM Mono",monospace; letter-spacing:.08em; white-space:nowrap; }
+@media (max-width:1000px) { .portrait-badge { left:1%; top:1%; } }
+@media (max-width:760px) { .portrait-badge { left:3%; top:0; } .portrait-badge img { width:42px; height:42px; } }
+@media (max-width:520px) { .portrait-badge { left:0; top:-2%; padding:6px 10px 6px 6px; gap:8px; } .portrait-badge img { width:36px; height:36px; } .portrait-badge span { font-size:8px; } }
