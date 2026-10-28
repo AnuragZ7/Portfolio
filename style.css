@@ -307,3 +307,9 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 @media (max-width:1000px) { .portrait-badge { left:1%; top:1%; } }
 @media (max-width:760px) { .portrait-badge { left:3%; top:0; } .portrait-badge img { width:42px; height:42px; } }
 @media (max-width:520px) { .portrait-badge { left:0; top:-2%; padding:6px 10px 6px 6px; gap:8px; } .portrait-badge img { width:36px; height:36px; } .portrait-badge span { font-size:8px; } }
+
+
+/* Use the portfolio owner's photo as the brand mark */
+.brand-photo { display:block; flex:0 0 auto; width:42px; height:42px; border-radius:12px; object-fit:cover; object-position:center; border:1px solid rgba(255,255,255,.12); }
+.footer-brand .brand-photo { width:29px; height:29px; border-radius:9px; }
+@media (max-width:520px) { .brand-photo { width:38px; height:38px; border-radius:11px; } }
