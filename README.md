@@ -1,19 +1,37 @@
 # Anurag Kumar | Portfolio
 
-A responsive personal portfolio website built with HTML and CSS. It introduces Anurag, highlights his skills, projects, achievements, and organizations, and provides contact information.
+A responsive React + Vite portfolio highlighting Anurag's skills, projects, education, achievements, and contact links.
 
 ## Features
 
-- Responsive layout for desktop and mobile screens
-- Sections for about, skills, projects, achievements, clubs, and contact
-- Profile photo and contact form with a client-side confirmation message
+- React components and data-driven skill/project cards
+- Responsive mobile navigation with accessible expanded state and Escape-to-close behavior
+- Interactive project filters for Full-stack and AI / ML projects
+- Responsive desktop, tablet, and mobile layouts
+- Reduced-motion support and keyboard-visible focus states
+- LinkedIn, GitHub, email, and phone contact links
 
 ## Run locally
 
-Open `index.html` in a web browser. No build tools or dependencies are required.
+Requires Node.js 20.19+ or 22.12+.
 
-## Files
+```bash
+npm install
+npm run dev
+```
 
-- `index.html` — portfolio content and page structure
-- `style.css` — layout, styling, and responsive rules
-- `your-photo.jpeg` — profile photo displayed on the page
+Open the local URL printed by Vite.
+
+## Production build
+
+```bash
+npm run build
+npm run preview
+```
+
+## Structure
+
+- `index.html` — Vite HTML entry point
+- `src/main.jsx` — React application entry point
+- `src/App.jsx` — portfolio sections and interactive React state
+- `style.css` — styling and responsive breakpoints
