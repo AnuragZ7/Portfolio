@@ -1,3 +1,4 @@
+import profilePhoto from "../your-photo.jpeg";
 import { useEffect, useState } from "react";
 
 const LINKEDIN = "https://www.linkedin.com/in/anurag-kumar-5b56a3355/";
