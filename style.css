@@ -319,12 +319,3 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 .portrait-badge { display:none !important; }
 
 
-/* Crisis response project artwork */
-.art-crisis { background: linear-gradient(135deg,#101e25,#172e38 55%,#10251e); }
-.crisis-ui { position:absolute; inset:0; overflow:hidden; background:radial-gradient(circle at 70% 35%,rgba(181,243,106,.08),transparent 35%); }
-.crisis-map-grid { position:absolute; inset:0; opacity:.3; background-image:linear-gradient(30deg,transparent 46%,#637b82 47%,#637b82 49%,transparent 50%),linear-gradient(120deg,transparent 46%,#637b82 47%,#637b82 49%,transparent 50%); background-size:55px 55px; }
-.crisis-pin { position:absolute; width:27px;height:27px;border-radius:50% 50% 50% 0; transform:rotate(-45deg);display:grid;place-items:center;background:#b5f36a;color:#15221a;font-weight:bold;box-shadow:0 0 18px rgba(181,243,106,.25); }
-.crisis-pin::first-letter { transform:rotate(45deg); } .pin-a{top:27%;left:24%;}.pin-b{top:55%;left:62%;background:#ff8868;color:#222;}.pin-c{top:68%;left:37%; }
-.crisis-route { position:absolute;left:25%;top:35%;width:42%;height:31%;border:2px dashed #b5f36a;border-right:0;border-bottom:0;border-radius:80% 0 0 0;transform:rotate(8deg);opacity:.75; }
-.crisis-panel { position:absolute;right:7%;top:10%;width:35%;padding:13px;border:1px solid rgba(181,243,106,.25);border-radius:10px;background:rgba(8,14,18,.82);font:9px monospace;color:#b5f36a;display:grid;gap:8px; }
-.crisis-panel i { display:block;height:5px;border-radius:4px;background:linear-gradient(90deg,#b5f36a 65%,rgba(181,243,106,.15) 65%); }
