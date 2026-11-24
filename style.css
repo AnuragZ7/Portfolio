@@ -331,3 +331,4 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 .nav-links a, .filter-button, .project-link, .text-link { transition: transform .22s ease, color .22s ease, border-color .22s ease, background .22s ease; }
 .nav-links a:hover { transform:translateY(-1px); }
 @media (prefers-reduced-motion: reduce) { .status-dot { animation:none; }
+}
