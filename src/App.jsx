@@ -22,7 +22,7 @@ function Art({ type, n }) {
   return <div className={`project-art art-${type}`} aria-hidden="true">
     {type === "alcovia" ? <div className="art-window"><div className="art-window-bar"><i/><i/><i/></div><div className="study-layout"><div className="study-sidebar"><b/><b/><b/></div><div className="study-main"><span className="study-kicker">YOUR STUDY SPACE</span><div className="study-title"/><div className="study-progress"><i/></div><div className="study-row"><i/><i/><i/></div></div></div></div>
     : type === "skyscope" ? <div className="sky-scene"><div className="sky-toolbar"><i/><i/><i/></div><div className="sky-room"><div className="room-person person-one"/><div className="room-person person-two"/><div className="room-person person-three"/><div className="room-table"/></div><div className="sky-chat"><i/><i/><i/></div></div>
-    : type === "crisis" ? <div className="crisis-ui"><div className="crisis-map-grid"/><div className="crisis-pin pin-a">+</div><div className="crisis-pin pin-b">+</div><div className="crisis-pin pin-c">+</div><div className="crisis-route"/><div className="crisis-panel"><b>EMERGENCY DISPATCH</b><i/><i/><i/></div></div> : <div className="health-ui"><div className="health-cross">+</div><div className="health-line"/><div className="health-bars"><i/><i/><i/><i/><i/><i/><i/></div><div className="health-label">HEALTH DATA / SECURE BY DESIGN</div></div>}
+    : <div className="health-ui"><div className="health-cross">+</div><div className="health-line"/><div className="health-bars"><i/><i/><i/><i/><i/><i/><i/></div><div className="health-label">HEALTH DATA / SECURE BY DESIGN</div></div>}
     <span className="art-index">{n}</span>
   </div>;
 }
